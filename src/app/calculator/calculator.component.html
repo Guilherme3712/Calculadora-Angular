@@ -1,0 +1,28 @@
+<div class="container">
+    <div class="calc">
+        <h3>Calculadora</h3>
+        <div class="operations">
+            <div class="prev-calc">{{prevOp}}</div>
+            <div class="corrent-calc">{{correntOp}}</div>
+        </div>
+        <div class="btn-container">
+            <button (click)="addInDisplay('C')" class="c">C</button>
+            <button (click)="addInDisplay('/')" class="op">/</button>
+            <button (click)="addInDisplay('7')" class="number">7</button>
+            <button (click)="addInDisplay('8')" class="number">8</button>
+            <button (click)="addInDisplay('9')" class="number">9</button>
+            <button (click)="addInDisplay('*')" class="op">*</button>
+            <button (click)="addInDisplay('4')" class="number">4</button>
+            <button (click)="addInDisplay('5')" class="number">5</button>
+            <button (click)="addInDisplay('6')" class="number">6</button>
+            <button (click)="addInDisplay('-')" class="op">-</button>
+            <button (click)="addInDisplay('1')"class="number">1</button>
+            <button (click)="addInDisplay('2')" class="number">2</button>
+            <button (click)="addInDisplay('3')" class="number">3</button>
+            <button (click)="addInDisplay('+')" class="op">+</button>
+            <button (click)="addInDisplay('0')" class="func">0</button>
+            <button (click)="addInDisplay('.')" class="number">.</button>
+            <button (click)="addInDisplay('=')" class="op">=</button>
+        </div>
+    </div>
+</div>

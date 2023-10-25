@@ -1,0 +1,15 @@
+@import './reset.css';
+
+:root{
+    --color-primary: #FFFFFF;
+    --color-secondary: #d0d0d0;
+    --color-calc: #FFFFFF;
+    --bg-color: rgb(30, 30, 30);
+    --bg-title-color: #FFFFFF;
+    --bg-btn-color: #FFFFFF;
+    --bg-btn-number-color: #FFFFFF;
+    --bg-btn-func-color: #FFFFFF;
+    --bg-btn-op-color: #fa8231;
+    --bg-btn-hover-color: #FFFFFF;
+}
+

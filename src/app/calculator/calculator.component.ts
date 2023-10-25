@@ -25,9 +25,6 @@ export class CalculatorComponent {
     }
   }
   addDigit(digit:any){
-    if(digit === "." && this.correntOp.includes(".")){
-      return
-    }
     this.correntOp += digit;
   }
   processOp(op:any){
@@ -67,9 +64,6 @@ export class CalculatorComponent {
     prev:any
   ){
     if(valueOp !== null){
-      if(prev === 0){
-        valueOp = actual;
-      }
       this.prevOp = `${actual} ${op}`
       if(prev > 0){
         this.prevOp = `${prev} ${op} ${actual} =`
